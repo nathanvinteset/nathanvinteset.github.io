@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Garamond;
+    src: url(EBGaramond-VariableFont_wght.ttf);
+}
+
+p{
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    font-family: Garamond;
+    height: 261px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.608);
+}
+
+body{
+    padding: 0 20px;
+    background-image: url(imagens/Design\ sem\ nome\ \(2\).png);
+}
+
+a{
+    text-decoration: none;
+
+}
+
+h2{
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family: Garamond;
+    font-size: 29px;
+    border-radius: 25px;
+    padding: 5px 0;
+    margin-top: 14px;
+}
+
+h2:hover{
+    transform: scale(1.1);
+    color: #7e7f7e;
+
+}
+
+
+.materia{
+    display: flex;
+    justify-content: space-around;
+      
+}
+
+img{
+    height: 180px;
+    width: 280px;
+}
+
+@media (max-width: 768px) {
+    .materia {
+      flex-direction: column; /* Itens empilhados verticalmente */
+      overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+    }
+
+    h1{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        margin-bottom: 8%;
+        font-weight: bolder;
+        font-family: Garamond;
+        height: auto;
+        border-radius: 40px;
+        background-color: rgba(0, 0, 0, 0.608);
+        padding: 20px 5px;
+    }
+
+
+    img{
+        display: flex;
+        height: 180px;
+        width: 280px;
+        margin: auto;
+    }
+
+    h2{
+        color: black;
+        background-color: white;
+        text-align: center;
+        border-radius: 25px;
+        padding: 5px 0;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .linha{
+        border-top: 2px solid white;
+        padding-bottom: 20px;
+    }
+}
